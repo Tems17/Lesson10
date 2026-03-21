@@ -69,13 +69,13 @@ function showTopFlavors(jsonObj) {
         p2.textContent = 'Type: ' + topFlavors[i]['type'];
         //changing color based on type
         if(topFlavors[i]['type'] === 'sorbet'){
-            p2.style.color = 'orange'
+            p2.style.color = '#d97706'
         }
         else if(topFlavors[i]['type'] === 'frozen yogurt'){
-            p2.style.color = 'yellow'
+            p2.style.color = '#BB7E5D'
         }
         else{
-            p2.style.color = 'pink';
+            p2.style.color = '#FFA0AC';
         }
 
 
