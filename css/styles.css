@@ -45,22 +45,30 @@ section article {
     background-color: white;
     transition: transform 0.3s ease;
 	text-align: center;
+	display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 article img {
 	display: block;
 	height: 120px;
     width: auto;
-    margin: 10px auto;
+    margin: 20px auto;
 }
 section p {
   margin: 5px 0;
 }
 
 section ul {
-  margin-top: 0;
+  	text-align: left;
+    padding-left: 20px;
+    margin: 15px 0;
+	flex-grow: 1;
+
 }
 
 h2 {
-  font-size: 2.5rem;
-  margin-bottom: 10px;
+	font-size: 1.8rem;
+  	margin-bottom: 15px;
+  	line-height: 1.2;
 }
