@@ -72,7 +72,7 @@ function showTopFlavors(jsonObj) {
             p2.style.color = 'orange'
         }
         else if(topFlavors[i]['type'] === 'frozen yogurt'){
-            p2.style.color = 'white'
+            p2.style.color = 'yellow'
         }
         else{
             p2.style.color = 'pink';
