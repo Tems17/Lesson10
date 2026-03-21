@@ -57,10 +57,26 @@ function showTopFlavors(jsonObj) {
         let h2 = document.createElement('h2');
         let image = document.createElement('img');//<img src ="choclate-mint.svg"
         let ul = document.createElement('ul');
+        let p1 = document.createElement('p');
+        let p2 = document.createElement('p');
+
 
         // STEP 10f: Set the textContent property for each of the above elements (except the UL), based on the JSON content
         h2.textContent=topFlavors[i]['name'];
         image.setAttribute('src','https://raw.githubusercontent.com/Tems17/Lesson10/refs/heads/main/images/' + topFlavors[i].image);
+        //displaying calories and type
+        p1.textContent = 'Calories: ' + topFlavors[i]['calories'];
+        p2.textContent = 'Type: ' + topFlavors[i]['type'];
+        //changing color based on type
+        if(topFlavors[i]['type'] === 'sorbet'){
+            p2.style.color = 'orange'
+        }
+        else if(topFlavors[i]['type'] === 'frozen yogurt'){
+            p2.style.color = 'white'
+        }
+        else{
+            p2.style.color = 'pink';
+        }
 
 
         // STEP 10g: Build a loop for the ingredients array in the JSON
@@ -78,6 +94,8 @@ function showTopFlavors(jsonObj) {
         article.appendChild(h2);
         article.appendChild(image);
         article.appendChild(ul);
+        article.appendChild(p1);
+        article.appendChild(p2);
         // STEP 10i: Append each complete ARTICLE element to the SECTION element
         section.appendChild(article);
         
