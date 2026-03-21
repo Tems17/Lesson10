@@ -25,6 +25,28 @@
         "clover honey"
       ],
       "image" : "peach-mango.svg"
+    },
+    {
+     "name": "Strawberry Sprinkle",
+     "calories": 250,
+      "type": "ice cream",
+      "ingredients": [
+        "strawberries",
+        "rainbow sprinkes",
+        "cream"
+      ],
+      "image": "strawberry-sprinkle.svg"
+    },
+    {
+      "name": "Cookie Dough Icecream",
+      "calories": 300,
+      "type": "frozen yoghurt",
+      "ingredients": [
+        "creamy vanilla",
+        "chocolate chips",
+        "cookie dough chunks"
+      ],
+      "image": "ice-cream-xtra2.svg"
     }
   ]
 }
