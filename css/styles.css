@@ -13,6 +13,7 @@ body {
 	line-height: 1.4;
 	width: 80%;
 	margin: 0 auto;
+	background-color: #F9DEC9;
 }
 
 /* header styles */
@@ -40,11 +41,16 @@ section article {
 	padding: 2.5%;
 	width: 25%;
 	margin: 0 1%;
+	border-radius: 10px; 
+    background-color: white;
+    transition: transform 0.3s ease;
+	text-align: center;
 }
 article img {
 	display: block;
-	height: 150px;
-	width: 90px;
+	height: 120px;
+    width: auto;
+    margin: 10px auto;
 }
 section p {
   margin: 5px 0;
